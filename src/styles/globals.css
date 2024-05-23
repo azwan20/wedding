@@ -38,6 +38,19 @@ body{
   font-family: "Gowun Batang", serif;
 }
 
+.home .contentUtama .sound{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--four-color);
+  position: absolute;
+  top: 70%;
+  z-index: 0;
+  /* bottom: 15%; */
+  right: 37%;
+  display: flex;
+}
+
 .homes{
   font-weight: 400;
   font-style: normal;
@@ -132,13 +145,14 @@ body{
 }
 
 .salam .sec p{
-  line-height: 1.3;
+  line-height: 2;
   font-size: 13px;
 }
 
 .salam h1{
   font-size: 28px;
-  font-weight: 900;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px #000;
 }
 
 .mempelai h5{
@@ -206,6 +220,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 99;
 }
 
 .gift .inputUcapan section {
